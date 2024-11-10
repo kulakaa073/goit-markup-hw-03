@@ -6,15 +6,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
-      integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -28,21 +28,21 @@
           <a href="./index.html" class="home-link">
             Web<span class="home-title">Studio</span>
           </a>
-          <ul>
-            <li>
+          <ul class="nav-menu">
+            <li class="nav-menu-item">
               <a href="./index.html" class="nav-link">Studio</a>
             </li>
-            <li>
+            <li class="nav-menu-item">
               <a href="" class="nav-link">Portfolio</a>
             </li>
-            <li>
+            <li class="nav-menu-item">
               <a href="" class="nav-link">Contacts</a>
             </li>
           </ul>
         </nav>
         <!-- Contact info -->
         <address class="address-section">
-          <ul>
+          <ul class="adress-container">
             <li>
               <a class="contact-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -62,7 +62,7 @@
     <main>
       <!-- Main section -->
       <section class="hero">
-        <div class="hero-container">
+        <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-button">Order Service</button>
         </div>
@@ -72,7 +72,7 @@
       <section class="about-section">
         <!-- Will be hidden later -->
         <div class="container">
-          <h2 class="about-section-title visually-hidden">About Us</h2>
+          <h2 class="visually-hidden about-section-title">About Us</h2>
           <ul class="about-container">
             <li class="about-item">
               <h3 class="about-title">Strategy</h3>
@@ -168,8 +168,8 @@
       </section>
 
       <section class="portfolio-section" id="portfolio-section">
-        <h2 class="portfolio-section-title">Our Portfolio</h2>
         <div class="container">
+          <h2 class="portfolio-section-title">Our Portfolio</h2>
           <ul class="portfolio-container">
             <li class="portfolio-card">
               <img
